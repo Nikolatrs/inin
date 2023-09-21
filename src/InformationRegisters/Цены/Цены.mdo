@@ -19,10 +19,10 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="f70e5801-a920-417d-b4d6-edf9a3768b71">
-    <name>цега</name>
+    <name>Цена</name>
     <synonym>
       <key>ru</key>
-      <value>Цега</value>
+      <value>Цена</value>
     </synonym>
     <type>
       <types>Number</types>

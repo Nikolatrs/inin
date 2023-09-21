@@ -41,6 +41,7 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиент</catalogs>
+  <documents>Document.Запись</documents>
   <enums>Enum.ДнииНедели</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>
