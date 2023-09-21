@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c871bfa1-875a-4869-a5dc-4abe74597a08">
+  <producedTypes>
+    <refType typeId="514c93a2-75f4-4929-925e-1f8072c6611c" valueTypeId="0c13cea9-b323-458d-b9db-81f251b99bf9"/>
+    <listType typeId="c45d1263-e6da-4285-8330-8f27f809e5f1" valueTypeId="815defb4-9cdc-4737-8fa3-5481b9000da2"/>
+    <managerType typeId="b48fb32d-2fca-463f-9c86-0c7df1053086" valueTypeId="1ee1df9e-a552-4f3f-b6d9-6f10da56a6b5"/>
+  </producedTypes>
+  <name>ДнииНедели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Днии недели</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc9334bf-4858-466a-8385-288d8fdbd8c0">
+    <name>Понедельник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Понедельник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="364d81e9-19b0-4799-83d2-56c1f686e8eb">
+    <name>Вторник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вторник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3bea2c5b-0139-4287-a5e9-5d31bc540032">
+    <name>Среда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64d2b9ee-13b8-4068-a1c9-f98e89b73005">
+    <name>Четверг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Четверг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6949337e-45d5-4bf0-bf7d-9b9c5559425d">
+    <name>Пятница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятница</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7a8a5c9-8de6-40cf-a204-27773e3c527b">
+    <name>Суббота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Суббота</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a935180-33bd-480e-8e45-e24d87861e74">
+    <name>Воскресение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воскресение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
