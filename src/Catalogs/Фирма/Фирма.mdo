@@ -40,7 +40,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>50</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -58,7 +58,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>15</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
