@@ -116,7 +116,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>10</length>
+        <length>20</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -155,6 +155,24 @@
       <stringQualifiers>
         <length>200</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f099b4e4-6687-4851-b76a-56f1cdc3cdf5">
+    <name>ДаттаРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Датта рождения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
