@@ -43,8 +43,10 @@
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиент</catalogs>
-  <documents>Document.бронь</documents>
+  <documents>Document.Запись</documents>
   <documents>Document.Продажа</documents>
+  <documents>Document.Оплата</documents>
   <enums>Enum.ДнииНедели</enums>
+  <enums>Enum.СпособОплаты</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>

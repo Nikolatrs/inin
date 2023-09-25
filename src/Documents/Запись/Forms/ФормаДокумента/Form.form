@@ -528,7 +528,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.бронь</types>
+      <types>DocumentObject.Запись</types>
     </valueType>
     <view>
       <common>true</common>

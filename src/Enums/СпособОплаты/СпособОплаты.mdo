@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285dccba-8576-4f0f-ba65-f91259a45eb7">
+  <producedTypes>
+    <refType typeId="64560cac-4bd7-43ea-8a1e-c5b2760c5037" valueTypeId="78f24168-c366-4be9-96ce-95d5439cac1d"/>
+    <listType typeId="91f43692-59e2-4447-b4c5-7ee01c6c7df2" valueTypeId="28026dff-a36c-432b-8b4c-eabb4abc0ddc"/>
+    <managerType typeId="a56b8a6e-af9b-4c7d-a546-8b40e912efd3" valueTypeId="7353a1e6-95ee-4034-880b-c9d85d606292"/>
+  </producedTypes>
+  <name>СпособОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ оплаты</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b82c095f-2ac9-490e-b5df-02416d3b374a">
+    <name>Налик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbd1d59d-03be-467c-93ea-4e49b8883748">
+    <name>Кредитка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
