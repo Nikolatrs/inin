@@ -7,16 +7,16 @@
     <listType typeId="bb7602c1-8d8f-4e66-a73b-aeccaefc3c69" valueTypeId="8fe5d1f9-7f70-4cf6-b594-9f31dddc78ca"/>
     <managerType typeId="b42147f5-3a88-4594-b3aa-d76a09f5f27a" valueTypeId="a2611e1d-52a9-4c39-b19c-3bfaa199505e"/>
   </producedTypes>
-  <name>Прродажа</name>
+  <name>Продажа</name>
   <synonym>
     <key>ru</key>
-    <value>Прродажа</value>
+    <value>Продажа</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Прродажа.StandardAttribute.Number</inputByString>
+  <inputByString>Document.Продажа.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
-  <dataLockFields>Document.Прродажа.StandardAttribute.Date</dataLockFields>
+  <dataLockFields>Document.Продажа.StandardAttribute.Date</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
@@ -29,7 +29,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Прродажа.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.Продажа.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

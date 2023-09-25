@@ -428,7 +428,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>DocumentObject.Прродажа</types>
+      <types>DocumentObject.Продажа</types>
     </valueType>
     <view>
       <common>true</common>

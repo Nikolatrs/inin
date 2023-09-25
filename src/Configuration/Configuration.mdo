@@ -44,7 +44,7 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиент</catalogs>
   <documents>Document.бронь</documents>
-  <documents>Document.Прродажа</documents>
+  <documents>Document.Продажа</documents>
   <enums>Enum.ДнииНедели</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>
