@@ -37,12 +37,14 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ДлительностьЦенаУслуги</commonModules>
   <catalogs>Catalog.Фирма</catalogs>
   <catalogs>Catalog.Услуги</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.Клиент</catalogs>
-  <documents>Document.Запись</documents>
+  <documents>Document.бронь</documents>
+  <documents>Document.Прродажа</documents>
   <enums>Enum.ДнииНедели</enums>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
 </mdclass:Configuration>

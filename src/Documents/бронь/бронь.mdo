@@ -7,20 +7,20 @@
     <listType typeId="4419aeb2-6d8d-49f3-ba87-817fa6af84ab" valueTypeId="e9f6fbf8-a781-4dbe-b9ee-10ede43f77eb"/>
     <managerType typeId="4070ecb4-5b39-4e69-be02-addb99240f97" valueTypeId="5245237e-286b-4813-b906-e41672edc582"/>
   </producedTypes>
-  <name>Запись</name>
+  <name>бронь</name>
   <synonym>
     <key>ru</key>
-    <value>Запись</value>
+    <value>Бронь</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Запись.StandardAttribute.Number</inputByString>
+  <inputByString>Document.бронь.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Записи</value>
+    <value>Брони</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
@@ -28,7 +28,7 @@
   <numberPeriodicity>Year</numberPeriodicity>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Запись.Form.ФормаДокумента</defaultObjectForm>
+  <defaultObjectForm>Document.бронь.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
