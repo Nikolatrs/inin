@@ -30,6 +30,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Запись.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ИсторияЗаписей</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="1e7bcc12-64db-4b2a-ad60-a8296ef90657">
