@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca2c6a11-5ce3-4ee9-84dd-434be5bede43">
+  <producedTypes>
+    <objectType typeId="b005bab1-c883-4c90-8005-48060cb47357" valueTypeId="5dea1bde-1ead-4695-b3b3-31dd0f4dde5b"/>
+    <refType typeId="8c2cf8a1-5bd5-465f-b7f0-7508e5e4588e" valueTypeId="b0fd46af-3bf1-4157-9050-144d30a1521f"/>
+    <selectionType typeId="b6151964-10e7-4afd-9d0b-cf9fad512762" valueTypeId="c898e5a7-68e8-4ab0-87d2-92aa9a77401c"/>
+    <listType typeId="002b5c38-4f39-4cee-a3ec-38957e7e0005" valueTypeId="34d0abc0-7ba4-4c47-89ca-b113d2f27487"/>
+    <managerType typeId="bc39ae21-f65d-43e8-81a1-daa647f9c433" valueTypeId="3d71b6f6-85cf-4f0a-8973-ebb93af3b219"/>
+  </producedTypes>
+  <name>Зарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Зарплата.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.ИсторияЗаписей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="f93e0ad9-e883-42c7-8d33-b44e3c183ebd">
+    <name>Салон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Салон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6d5415b7-fe21-43cd-908a-657e21412419">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ca5ba574-a632-4b34-9dd1-bde174b65097">
+    <producedTypes>
+      <objectType typeId="2234c8a7-8256-4466-922e-f74f6080c976" valueTypeId="a963575b-23a1-4d7c-aa0d-c33ee4c656bf"/>
+      <rowType typeId="3a2fa866-7f4b-42d0-b8cb-172664c7ae5a" valueTypeId="5d4156ec-49bc-4bb0-b52e-40eb10e5021a"/>
+    </producedTypes>
+    <name>Сотрудники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудники</value>
+    </synonym>
+    <attributes uuid="7d930276-9f82-49af-8d8c-c8f00abd29ac">
+      <name>Сотрудники</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудники</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e4a8d90-e0c5-4aad-b588-505d77561d8b">
+      <name>НачисляемаяЗП</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начисляемая ЗП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
