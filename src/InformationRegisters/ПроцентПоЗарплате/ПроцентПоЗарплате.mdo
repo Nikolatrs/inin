@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd45fe61-6133-4076-8996-91d53a91147e">
+  <producedTypes>
+    <selectionType typeId="498c1c86-e660-4120-aa87-3dbde3ee46d6" valueTypeId="24fda96e-11f6-4d77-88bc-fca645fb7e76"/>
+    <listType typeId="31065872-f349-41d9-ae19-3c8daf47e1d4" valueTypeId="e979ba70-49a4-461a-ab2a-faeea2cea478"/>
+    <managerType typeId="851b104a-016f-43e5-8219-1c6cc95a9010" valueTypeId="bade9e16-247d-4457-bbd1-ac5091f326f9"/>
+    <recordSetType typeId="304d4435-ff69-4b05-b15b-673ce576f6c9" valueTypeId="b7fe6a09-52b2-429d-8cba-c864d35ede6d"/>
+    <recordKeyType typeId="83462b05-9697-4b76-aad9-551e26ff9fc0" valueTypeId="f15e3c84-0a26-4a0f-af4d-01c1d54d023a"/>
+    <recordType typeId="550b51a3-02aa-4e81-a29d-6fa6f2603d1c" valueTypeId="bc5c204a-92b7-45a9-92c2-80089046a02d"/>
+    <recordManagerType typeId="bf27efaa-000e-40cc-8b44-4ec67e6515b7" valueTypeId="69aa6b32-dc6b-4578-989e-9b9e1fc051ef"/>
+  </producedTypes>
+  <name>ПроцентПоЗарплате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Процент по зарплате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПроцентПоЗарплате.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05859573-0760-4ebc-9516-c64644569a75">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f990cbe3-9740-4327-9d44-eee0d7ad8c19">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="3a421979-1473-4283-9d79-7fa76c125cb7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

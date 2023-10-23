@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c270be8a-df9f-4956-8c8b-3d273f7fa8d4">
+  <producedTypes>
+    <refType typeId="18db904d-f37b-4ac3-af81-148daea8c609" valueTypeId="23b0b47c-16a4-4e3e-b4d8-56545e2cb8d9"/>
+    <listType typeId="cb43013b-d760-44b1-9c88-c93c56000580" valueTypeId="7587804a-f47f-4faf-a361-46ea47a95b8a"/>
+    <managerType typeId="d5fe4fdf-623e-4882-b6b0-70af0c19cd87" valueTypeId="54f14397-4ebe-41d5-84d7-c6d79a4dcb54"/>
+  </producedTypes>
+  <name>ТипДережныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип дережных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cc0fc674-68f8-4000-84e8-5ee2d0a87537">
+    <name>Наличный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76f5ec11-473f-43cf-8875-66eccd30b0ef">
+    <name>Безналичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безналичный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

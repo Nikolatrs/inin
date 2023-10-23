@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="972fb685-4690-410b-b9b5-cbfd1423457a">
+  <producedTypes>
+    <managerType typeId="2838f862-cb5d-4f2b-b516-29fd9e27e11e" valueTypeId="0313ad4d-805b-4eb2-8ff0-9a27008d79e0"/>
+    <valueManagerType typeId="24965c4a-de8a-4208-908d-74c8846b3d77" valueTypeId="43fc68e2-9e7e-4d35-8e0a-4bd8fd20e59a"/>
+    <valueKeyType typeId="ca453e2c-f562-403f-8332-9f63e94cbf58" valueTypeId="7a4fccc8-c7e9-4554-a9f2-35bbe27f389a"/>
+  </producedTypes>
+  <name>СтандартныйПроцент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартный процент</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

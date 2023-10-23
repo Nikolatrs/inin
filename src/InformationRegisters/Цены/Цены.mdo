@@ -16,6 +16,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Цены.Form.ФормаСписка</defaultListForm>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="f70e5801-a920-417d-b4d6-edf9a3768b71">
@@ -58,4 +59,13 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="0d8e55f7-c5f3-4360-8a90-c601b9a927d6">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

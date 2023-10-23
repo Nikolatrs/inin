@@ -85,6 +85,7 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.Продажа.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="9694c302-4198-462b-8790-f57ca4383b81">
@@ -104,10 +105,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a3e8bf3b-c9d6-4578-9b5c-d9faf0c24bfa">
-    <name>сотрудники</name>
+    <name>Сотрудник</name>
     <synonym>
       <key>ru</key>
-      <value>Сотрудники</value>
+      <value>Сотрудник</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
