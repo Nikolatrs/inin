@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce9d44f8-fdf4-4a8b-9ff9-018c50a475dc">
+  <producedTypes>
+    <selectionType typeId="bc336845-fb25-4b24-b9ac-d36cbd8cfbf1" valueTypeId="ac71cdea-4056-48f9-966d-7542cec8310d"/>
+    <listType typeId="bb3c0f5d-8bd4-468c-9194-bc0f40f86216" valueTypeId="dd254d69-a90b-45eb-96cb-2a541c288a86"/>
+    <managerType typeId="8363081f-6716-4144-a5fd-06b3ef773a23" valueTypeId="406dbf11-c007-46d8-9069-cff91f8db791"/>
+    <recordSetType typeId="9115180a-7ef2-42da-9c1f-a028b6cb7c57" valueTypeId="e80b1f8d-b1b0-4b55-b5cd-02adf4aa97b8"/>
+    <recordKeyType typeId="61dad13b-b2b3-4f61-b28d-1632a25468d7" valueTypeId="0b485870-46c8-4356-9b9a-13a9d08bbe38"/>
+    <recordType typeId="73ca5168-f6d3-4fc3-a9f8-64a2e0d113b2" valueTypeId="069de3cf-972b-4bdf-ab9e-9c8cfa996b77"/>
+  </producedTypes>
+  <name>НачислениеЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисление ЗП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="5a3469a3-f5bf-4390-9686-f62017a4e16a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="29ebf737-fc3b-4051-804e-d5b7cb34a6f9">
+    <name>Салон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Салон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фирма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="e43e55b4-f58c-4d53-a938-97feef4514da">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="69132816-b829-4766-8091-80e1d46cd7e5">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -56,4 +56,5 @@
   <informationRegisters>InformationRegister.ПроцентПоЗарплате</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Деньги</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.НачислениеЗП</accumulationRegisters>
 </mdclass:Configuration>
