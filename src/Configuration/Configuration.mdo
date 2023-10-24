@@ -48,6 +48,7 @@
   <documents>Document.Продажа</documents>
   <documents>Document.Оплата</documents>
   <documents>Document.Зарплата</documents>
+  <documents>Document.добавитьУслугу</documents>
   <enums>Enum.ДнииНедели</enums>
   <enums>Enum.СпособОплаты</enums>
   <enums>Enum.ТипДережныхСредств</enums>
